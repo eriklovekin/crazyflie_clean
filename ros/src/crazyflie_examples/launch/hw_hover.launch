@@ -6,7 +6,7 @@
   <arg name="CF2" value="radio://0/80/2M/E7E7E7E702" />
   <arg name="CF3" value="radio://0/80/2M/E7E7E7E703" /> -->
   <arg name="robot_number" default="1" />
-  <arg name="uri" value="radio://0/80/2M/E7E7E7E70$(arg robot_number)" />
+  <arg name="uri" value="radio://0/80/2M/E7E7E7E7E$(arg robot_number)" />
 
   <!-- Topics. -->
   <arg name="reference_topic" default="/ref"/>
